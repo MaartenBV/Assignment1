@@ -121,6 +121,7 @@
     text-align: center;
     color: #000000;
     font-size: 40px;
+    width: 50%;
     font-family: 'Times New Roman', Times, serif;
   }
 
@@ -129,9 +130,9 @@
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
+    width: 50%;
     background-color: #ffffff;
     font-weight: lighter;
-    min-width: 550px;
   }
 
   .project-description {

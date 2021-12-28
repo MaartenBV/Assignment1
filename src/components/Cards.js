@@ -11,13 +11,13 @@ function Cards() {
                     <ul className="cards__items">
                         <CardItem 
                         src="./images/project1.jpg"
-                        text="slightly longer sentence to see if the width changes if i just type more and also kind of to check if there is a maximum width because i don't know that either"
+                        text="Project: Pluswonen"
                         label='Architectuurontwerp III'
                         path='/projects'
                         />
                         <CardItem 
                         src="./images/project2.jpg"
-                        text="Project 2 description"
+                        text="Project: De Groene Halte"
                         label='Architectuurontwerp II'
                         path='/projects'
                         />
@@ -25,19 +25,19 @@ function Cards() {
                     <ul className="cards__items">
                         <CardItem 
                         src="./images/project3.jpg"
-                        text="Project 3 description"
+                        text="Project: Polychroom"
                         label='Architectuurontwerp II'
                         path='/projects'
                         />
                         <CardItem 
                         src="./images/project4.jpg"
-                        text="Project 4 description"
+                        text="Project: De Leerplek"
                         label='Architectuurontwerp III'
                         path='/projects'
                         />
                         <CardItem 
                         src="./images/project5.jpg"
-                        text="Project 5 description"
+                        text="Project: Dienstencentrum 2.0"
                         label='Architectuurontwerp III'
                         path='/projects'
                         />

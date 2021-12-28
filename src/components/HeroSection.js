@@ -9,7 +9,7 @@ function HeroSection() {
             <h1>REEL Architecture Office</h1>
             <p>Architecture office</p>
             <div className='hero-btns'>
-                <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
+                <Button className='btn' buttonStyle='btn--outline' buttonSize='btn--large'>
                     <p className="button-text">LEARN MORE</p>
                     </Button>
             </div>

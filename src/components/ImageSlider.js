@@ -1,6 +1,4 @@
 import React, {useState} from 'react';
-import {SliderData1} from './SliderData1.js';
-import {SliderData2} from './SliderData2.js';
 import {FaArrowAltCircleRight,FaArrowAltCircleLeft} from 'react-icons/fa'
 
 const ImageSlider = (props) => {
@@ -37,7 +35,7 @@ const moveDot = c => {
         <section className="slider">
             <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide}/>
             <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
-            {SliderData1.map((slide, index) => {
+            {props.slides.map((slide, index) => {
                 return (
                 <div className={index === current ? 'slideactive' : 'slide'} key={index}>
                     {index === current && (
@@ -48,7 +46,7 @@ const moveDot = c => {
             })}
             <div className="slider-dots">
                 {slides.map((item, index) => {
-                    return <div onClick={() => {console.log(item, index); moveDot(index)}} className={index == current ? "dot-active" : "dot"}></div>
+                    return <div onClick={() => {console.log(item, index); moveDot(index)}} className={index == current ? "dot active" : "dot"}></div>
                 })}
             </div>
         </section>

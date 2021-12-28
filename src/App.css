@@ -34,7 +34,7 @@
     font-size: 100px;
   }
   
-  .sign-up {
+  .contact {
     background-image: url('./images/foto4.jpg');
     background-position: center;
     background-size: cover;
@@ -89,13 +89,13 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    border: 3px solid #f1f1f1;
+    border: 2px solid #272727;
     margin: 0 5px;
     background: #f1f1f1;
   }
 
   .dot.active {
-    background: rgb(32, 32, 32);
+    background: #272727;
   }
 
   .app-container {
@@ -106,11 +106,11 @@
   }
 
   .table {
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid transparent;
   }
 
   .th,.tr {
-    border: 1px solid #000000;
+    border: 1px solid transparent;
     text-align: left;
     padding: 8px;
     font-size: 32px;
@@ -133,6 +133,7 @@
     width: 50%;
     background-color: #ffffff;
     font-weight: lighter;
+    vertical-align: top;
   }
 
   .project-description {
@@ -144,16 +145,50 @@
     background-color: #ffffff;
   }
 
+  .aboutus-container {
+    background-image: url('./images/aboutusbackground.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .aboutus-container > h1 {
+    font-size: 50px;
+    margin-top: 0px;
+    color: #000;
+  }
+
   .aboutus-info {
     color: #000;
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Times New Roman', Times, serif;
-    text-align: left;
-    background-color: #ffffff;
+    text-align: center;
+    width: 50%;
+    background-color: transparent;
     font-weight: lighter;
-    max-width: 750px;
+    vertical-align: center;
   }
 
   .aboutus-image {
+    background-image: url('./images/aboutusfoto.jpg');
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    height: 603px;
+  }
+
+  .mailer-container {
+    background-image: url('./images/contactbackground.jpg');
+  }
+
+  .contact-title {
     text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .contact-info {
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    height: 15px;
   }

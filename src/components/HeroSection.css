@@ -39,6 +39,7 @@ video {
     margin: 6px;
     width: 200px;
     height: 40px;
+    background-color: #fff;
 }
 
 .button-text {

@@ -1,0 +1,20 @@
+Een beetje uitleg bij de website:
+
+Ik heb vooral geprobeerd van ook zoveel mogelijk van de layout zelf uit te zoeken, ipv vooral pre-made stijlen te gaan gebruiken.
+Ik zal misschien ook een woordje uitleg geven bij de belangrijkste of meest ingewikkelde componenten die ik gemaakt heb.
+
+De eerste daarvan is footer component onderaan de Home-pagina. Vooral de icoontjes van de social media sites in orde krijgen heeft daarbij redelijk wat opzoekwerk gevraagd. Verder verwijst ook de meeste tekst in deze footer naar de juiste pagina op de site of de juiste hyperlink.
+
+De ImageSlider die gebruikt wordt op de Projects-pagina vroeg ook wat werk. Vooral zorgen dat, wanneer je verderklikte op de laatste foto, je terug op de eerste uitkwam, was ingewikkeld.
+Verder heb ik er bij deze component ook voor gezorgd dat ik vrij simpel verschillende arrays van afbeeldingen kon gebruiken.
+
+Op de Contacts-pagina is ook een Mailer-component toegevoegd. Deze is verbonden met een applicatie op de site emailjs.com, zodat de mails die via de React-app verstuurd worden, ook in mijn mailbox terechtkomen.
+Indien u wil, kan ik u hiervoor altijd bewijs doorsturen.
+
+Op het einde heb ik aan de App.js ook nog een ScrollToTop functie toegevoegd, omdat ik merkte dat, wanneer ik naar een andere pagina ging via een Link, ik meestal halverwege die pagina uitkwam en niet bovenaan.
+In het begin was deze functie wat prutsen, maar met wat hulp op forums is ze vrij snel in orde geraakt.
+
+Verder is heel de website responsive gemaakt om te zorgen dat alle componenten herverschuiven afhankelijk van de breedte van het scherm. Ook de Navbar component ziet er anders uit eens de schermbreedte onder een bepaalde waarde zakt.
+
+
+Veel plezier ermee, en goede feesten!
